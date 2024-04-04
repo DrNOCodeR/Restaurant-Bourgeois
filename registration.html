@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="newmainstyle.css">
+	<link rel="shortcut icon" type="text/css" href="images/b.png">
+	<title>Вход Bourgeois</title>
+    <style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#815d23;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.containerx {
+    padding: 16px;
+    background-color: #f1cbad;
+   
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #815d23;
+    margin-bottom: 25px;
+}
+.registerbtn {border-radius: 30px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-weight: bold;
+    font-size: 18px;
+}
+.registerbtn:hover {
+    opacity: 1;
+    background-color: #815d23;
+    transition: 0.5s;
+}
+a {
+    color: dodgerblue;
+}
+.signin {
+    background-color: #815d23;
+    text-align: center;
+    font-size: 18px;
+}
+.r{height: 350px; width: 500px; position: absolute; left: 35%; right: 35%; top: 15%; border-radius: 30px;
+}
+.pl{font-size: 18px;color: #815d23;}
+.la{color: #815d23;}
+</style>
+</head>
+
+<body>
+<div class="header" >
+        <div class="container">
+            <div class="header__inner"> 
+                <a href="newmain.html"><img src="images/b.png" class="logo"></a><a href="newmain.html"><img src="images/star.png" class="logo2"></a>
+                <ul class="navigation-menu">    
+                    <li class="navigation-menu-item">
+                        <a href="newmain.html" class="navigation-menu-link"><b>Главная</b></a>
+                    </li>   
+                    <li class="navigation-menu-item">
+                        <a href="menu.html" class="navigation-menu-link"><b>Меню</b></a>
+                    </li>
+                    <li class="navigation-menu-item">
+                        <a href="newmain.html" class="navigation-menu-link"><b>Акции</b></a>
+                    </li>
+                    <li class="navigation-menu-item">
+                        <a href="dostavka.html" class="navigation-menu-link "><b>Доставка</b></a>
+                    </li>
+                    <li class="navigation-menu-item">
+                        <a href="personal.html" class="navigation-menu-link"><b>Наш персонал</b></a>
+                    </li>
+                </ul>
+                <a href="registration.html"><button class="authorization">
+                    <img src="images/user.png" alt="">
+                    <span style="color:#815d23;"><b>Вход</b></span>
+                </button></a>
+                <a href="bron.html"><button class="shopping-cart">
+                    <img src="images/table.png" alt="">
+                    <span class="price-value" style="color:#815d23;"><b>Бронь</b></span> 
+                </button></a>
+            </div>
+        </div>
+    </div>
+<br><br><br><br>
+<div class="r">
+<form class="fig" action="dostavka.html">
+  <div class="containerx">
+    <h1 align="center" ><font color="#815d23">Регистрация</font></h1>
+    <p align="center" class="pl">Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+    <hr>
+
+    <label for="email"><b class="la">Электронная почта</b></label>
+    <input type="text" placeholder="Введите адрес электронной почты" name="email" required>
+
+    <label for="psw"><b class="la">Пароль</b></label>
+    <input type="password" placeholder="Введите пароль" name="psw" required>
+
+    <label for="psw-repeat"><b class="la">Повторить пароль</b></label>
+    <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+    <hr>
+    <p align="center" class="pl">Создавая учетную запись, вы соглашаетесь с нашими <a href="#">Условиями и конфиденциальностью</a>.</p>
+
+    <a href="dostavka.html" class="reg"><button type="submit" class="registerbtn">Регистрация</button></a>
+  </div>
+  
+  <div class="container signin">
+    <p>У вас уже есть учетная запись? <a href="#">Войдите в систему</a>.</p>
+  </div>
+</form>
+</div>
+
+<a href="#ToP"><div class="toTop"><div class="toTop-arrow">&#9650;</div></div></a>
+<div class="foter5">© Restaurant Bourgeois 2023 by Kiyasov Gadjimurad. All rights reserved.</div>
+</body>
